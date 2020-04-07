@@ -1,0 +1,9 @@
+var countElements = function(arr) {
+    let counter = 0
+    
+    for(let i of arr){
+        if(arr.includes(i + 1))
+            counter++
+    }
+         return counter
+};
